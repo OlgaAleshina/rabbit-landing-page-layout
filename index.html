@@ -58,30 +58,11 @@
             </div>
         </nav>
         <!--card with rabbit-->
-        <div class="card bg-dark text-white">
-            <img src="./assets/bg_1.png" class="card-img img-fluid" alt="background" />
-            <div class="card-img-overlay row no-gutters">
-                <div class="col-md-6 my-auto">
-                    <img src="./assets/rabbit.png" class="col-md-6 col-sm-6 float-right" style="max-width: 50%;" alt="rabbit" />
-                </div>
-                <div class="col-md-6 my-auto col-sm-6">
-                    <div class="card-body ">
-                        <h5 class="card-title">Expert Hangyman & Remodelling</h5>
-                        <p>
-                            Integer consectetur dapibus nisi, et faucibus augue lobortis ut. Proin quis porttitor sem. Donec ultrices felis quis tincidunt
-                        </p>
-                        <a href="#" class="btn btn-warning">LEARN MORE</a>
-                        <a href="#" class="btn btn-outline-light">GET A QUOTE</a>
-                    </div>
-                </div>
+
+        <div class="row " style="background: url(assets/bg_1.png); padding: 50px">
+            <div class="col-md-5 d-flex align-items-center justify-content-md-end">
+                <img src="./assets/rabbit.png" alt="rabbit" class="img-fluid col-md-7" id="rabbit-grey-bg" style="padding: 10px; " />
             </div>
-        </div>
-        <div class="card-footer row justify-content-around">
-            <p class="font-weight-bold" style="font-size: 15px;">
-                We have 13 years of experience in Auhandy.
-            </p>
-            <a href="#" class="btn btn-warning text-white">
-                <i class="fas fa-mobile-alt"></i> +1 23 568 8967</a>
         </div>
         <!--why choose us section-->
         <div class="row " style="padding: 50px;">
@@ -150,7 +131,7 @@
             <!--our services section carousel-->
             <div id="services-carousel" class="carousel slide container " style="margin: 30px">
                 <div class="carousel-inner row " role="listbox">
-                    <div class="carousel-item active ">
+                    <div class="carousel-item active offset-md-1">
                         <button type="button" class="btn btn-outline-primary text-light col-md-2" style="margin: 10px">
                 <img
                   src="./assets/gears.png"
@@ -171,7 +152,7 @@
                 />
                 <h5 class="text-bold">Electrical</h5>
                 <p style="font-size: 11px;">
-                  Donec malesuada, purus a viverra sodales leo purus lobortis
+                  Donec malesuada, purus a viverra sodales leo purus lob
                 </p>
               </button>
 
@@ -217,7 +198,7 @@
       </div>
 
       <!-- Our projects section -->
-      <div style="padding: 50px">
+      <div class="p-5">
         <h5 class="text-center">OUR PROJECTS</h5>
         <hr style="background-color: #1c3e9b; width: 40px; margin-top: 0px" />
         <ul class="nav justify-content-center">
@@ -240,15 +221,94 @@
                     <a class="nav-link" href="#">WALL PAINT</a>
                 </li>
                 </ul>
-                <!-- Text on hoover image -->
+                <div class="container col-md-9 " style="padding-top: 30px">
+                    <div class="row">
+                        <img src="./assets/router_left.png" alt="router_left" class="col-md-4" style="padding: 0px" />
+                        <img src="./assets/bear.png" alt="bear" class="col-md-4" style="padding: 0px" />
+                        <img src="./assets/rabbit_greybg.png" alt="rabbit_greybg" class="col-md-4" style="padding: 0px" />
+                        <img src="./assets/rabbit_greybg.png" alt="rabbit_greybg" class="col-md-4" style="padding: 0px" />
+                        <img src="./assets/router_right.png" alt="router_right" class="col-md-4" style="padding: 0px" />
+                        <img src="./assets/bear.png" alt="bear" class="col-md-4" style="padding: 0px" />
+                    </div>
+                    <div class="text-center" style="padding: 30px">
+                        <a href=" # " class="btn btn-warning btn-sm text-light " style="font-size: 12px; ">ALL PROJECTS</a
+            >
+          </div>
+        </div>
+      </div>
+      <!--problems section-->
+      <div
+        class="bg-dark text-white "
+        style="background: url(assets/bg_services.png); padding: 100px"
+      >
+        <div class="offset-md-1 col-md-4">
+          <h5>YOU HAVE SOME PROBLEMS IN HOUSING?</h5>
+          <a href="#" class="btn btn-warning btn-sm text-light text-bold"
+            ><i class="fas fa-mobile-alt"></i> +1 23 567 8596</a
+          >
+        </div>
+      </div>
+      <!--location section-->
+      <div style="background: url(assets/brick_bg.png); padding: 50px">
+        <div class="container col-md-9 ">
+          <div class="row ">
+              <div class= "col-md-4">
+                  <h5>OUR LOCATION</h5>
+                <hr style="background-color: #1c3e9b; width: 40px; margin-top: 0px; margin-left: 0px" />
+                <img src ="./assets/map.png" alt="map" class="img-fluid" />
+            </div>
+              <div class="pl-1"><h5>GET A QUOTE</h5>
+                <hr style="background-color: #1c3e9b; width: 40px; margin-top: 0px; margin-left: 0px" />
+                <form>
+                    <div class="form-row pb-1">
+                      <div class="col">
+                        <input type="text" class="form-control" placeholder="Your Name">
+                      </div>
+                      <div class="col">
+                        <input type="text" class="form-control" placeholder="Your E-mail">
+                      </div>
+                    </div>
+                    <div class="form-row pb-1">
+                        <div class="col">
+                          <input type="text" class="form-control" placeholder="Your Subjects">
+                        </div>
+                        <div class="col">
+                          <input type="number" class="form-control" placeholder="Your Phone Number">
+                        </div>
+                      </div>
+                      <div class="form-row pb-2">
+                        <div class="col">
+                            <textarea class="form-control" id="exampleFormControlTextarea1" rows="2" placeholder="Description Services Needed"></textarea>
+                        </div>
+                      </div>
+                      <a href=" # " class="btn btn-warning btn-sm text-light " style="font-size: 12px; ">SUBMIT</a>
+                        </form>
+                    </div>
+                </div>
+
+
 
             </div>
+        </div>
+        <!-- partners-->
+        <div class="p-5 container col-md-9">
+            <div class="row justify-content-around" style="height:auto">
+                <img src="./assets/partner1.png" alt="partner1" class="img-fluid" />
+                <img src="./assets/partner2.png" alt="partner2" />
+                <img src="./assets/partner3.png" alt="partner3" />
+                <img src="./assets/partner4.png" alt="partner4" />
+            </div>
+        </div>
+        <!-- end-->
+    </div>
+    </div>
+    >
 
-            <!-- Optional JavaScript -->
-            <!-- jQuery first, then Popper.js, then Bootstrap JS -->
-            <script src="https://code.jquery.com/jquery-3.4.1.slim.min.js" integrity="sha384-J6qa4849blE2+poT4WnyKhv5vZF5SrPo0iEjwBvKU7imGFAV0wwj1yYfoRSJoZ+n" crossorigin="anonymous"></script>
-            <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js" integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous"></script>
-            <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js" integrity="sha384-wfSDF2E50Y2D1uUdj0O3uMBJnjuUD4Ih7YwaYd1iqfktj0Uod8GCExl3Og8ifwB6" crossorigin="anonymous"></script>
+    <!-- Optional JavaScript -->
+    <!-- jQuery first, then Popper.js, then Bootstrap JS -->
+    <script src="https://code.jquery.com/jquery-3.4.1.slim.min.js " integrity="sha384-J6qa4849blE2+poT4WnyKhv5vZF5SrPo0iEjwBvKU7imGFAV0wwj1yYfoRSJoZ+n " crossorigin="anonymous "></script>
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js " integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo " crossorigin="anonymous "></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js " integrity="sha384-wfSDF2E50Y2D1uUdj0O3uMBJnjuUD4Ih7YwaYd1iqfktj0Uod8GCExl3Og8ifwB6 " crossorigin="anonymous "></script>
 </body>
 
 </html>
