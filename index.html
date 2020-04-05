@@ -20,31 +20,32 @@
 </head>
 
 <body>
-    <div class="container" style="padding: 50px 0px">
+    <div class="container pt-5">
         <!--grey navbar-->
-        <div class="row justify-content-center jumbotron jumbotron-fluid">
-            <div class="align-self-center col-md-5  ">
-                <p class="text-center" style="font-size: 15px;">
-                    We make your home more quality.
-                </p>
+        <div class="row p-2" style="background-color: #f2f2f2">
+            <div class="col-md-5 d-flex align-items-center justify-content-center">
+                <p class="m-0">We make your home more quality.</p>
             </div>
-            <div class="col-md-5 justify-content-end">
-                <i class="fab fa-facebook-f"></i>
-                <i class="fab fa-twitter"></i>
-                <i class="fab fa-google-plus-g"></i>
-                <i class="fab fa-behance"></i>
+            <div class="col-md-5 d-flex align-items-center justify-content-md-end justify-content-sm-around">
+                <i class="fab fa-facebook-f pr-2"></i>
+                <i class="fab fa-twitter pr-2"></i>
+                <i class="fab fa-google-plus-g pr-2"></i>
+                <i class="fab fa-behance pr-2"></i>
             </div>
         </div>
+
         <!--navbar with logo-->
-        <nav class="navbar navbar-expand-lg navbar-light bg-light">
-            <a class="navbar-brand offset-md-2" href="#">
-                <img src="./assets/logo.png" width="auto" height="40" class="d-inline-block align-top" alt="logo" />
-            </a>
-            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
+        <nav class="navbar navbar-expand-lg navbar-light bg-light row">
+            <div class="col-md-5 text-center">
+                <a class="navbar-brand " href="#">
+                    <img src="./assets/logo.png" width="auto" height="40" class="image-fluid" alt="logo" />
+                </a>
+            </div>
+            <button class="navbar-toggler " type="button" data-toggle="collapse" data-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
           <span class="navbar-toggler-icon"></span>
         </button>
-            <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
-                <div class="navbar-nav col-md-6 ">
+            <div class="collapse navbar-collapse col-lg-5" id="navbarNavAltMarkup">
+                <div class="navbar-nav">
                     <a class="nav-item nav-link active" href="#">HOME <span class="sr-only">(current)</span></a
             >
             <a class="nav-item nav-link active" href="#">SERVICES</a>
@@ -59,15 +60,35 @@
         </nav>
         <!--card with rabbit-->
 
-        <div class="row " style="background: url(assets/bg_1.png); padding: 50px">
+        <div class="row bg-dark text-white p-5" style="background: url(assets/bg_1.png);">
             <div class="col-md-5 d-flex align-items-center justify-content-md-end">
                 <img src="./assets/rabbit.png" alt="rabbit" class="img-fluid col-md-7" id="rabbit-grey-bg" style="padding: 10px; " />
             </div>
+            <div class="col-md-5 my-auto">
+                <h5 class="font-weight-bold">Expert Handyman & Remodeling</h5>
+                <p>Integer consectetur dapibus nisi, et faucibus augue lobortis ut. Proin quis porttitor sem. Donec ultrices felis quis tincidunt</p>
+                <div class="row pl-2">
+                    <div class="p-1"><a href="#" class="btn btn-warning btn-sm text-light" style="font-size: 12px;">LEARN MORE</a
+            >       </div>
+                    <div class="p-1">
+                    <a href="#" class="btn btn-outline-light btn-sm " style="font-size: 12px;">GET A QUOTE</a
+                    > </div>
+                </div>
+            </div>
+        </div>
+        <div class= "row p-4" style="background: url(assets/brick_bg.png);">
+              <div class="col-md-5 d-flex align-items-center justify-content-md-end">
+                  <p class ="font-weight-bold m-0">We have 13 years of experience in Auhandy</p>
+               </div>
+               <div class="col-md-5 d-flex align-items-center justify-content-md-end"><a href="#" class="btn btn-warning btn-sm text-light font-weight-bold"
+            ><i class="fas fa-mobile-alt"></i> +1 23 567 8596</a
+          >
+                   </div>
         </div>
         <!--why choose us section-->
-        <div class="row " style="padding: 50px;">
+        <div class="row p-4">
             <div class="col-md-5 d-flex align-items-center justify-content-md-end">
-                <img src="./assets/rabbit_greybg.png" alt="rabbit-grey-bg " class="img-thumbnail col-md-7" id="rabbit-grey-bg" style="padding: 10px; " />
+                <img src="./assets/rabbit_greybg.png" alt="rabbit-grey-bg " class="img-thumbnail col-md-7 p-2" id="rabbit-grey-bg" />
             </div>
             <div class="col-md-5 my-auto">
                 <h5>WHY CHOOSE US</h5>
@@ -125,14 +146,14 @@
             </div>
         </div>
         <!--our services section-->
-        <div class="bg-dark text-white " style="background: url(assets/bg_services.png); padding: 50px">
+        <div class="bg-dark text-white p-5" style="background: url(assets/bg_services.png);">
             <h5 class="text-center">OUR SERVICES</h5>
             <hr style="width: 40px;background-color: white;" />
             <!--our services section carousel-->
             <div id="services-carousel" class="carousel slide container " style="margin: 30px">
                 <div class="carousel-inner row " role="listbox">
                     <div class="carousel-item active offset-md-1">
-                        <button type="button" class="btn btn-outline-primary text-light col-md-2" style="margin: 10px">
+                        <button type="button" class="btn btn-outline-primary text-light col-md-2 m-1">
                 <img
                   src="./assets/gears.png"
                   alt="gears"
@@ -186,13 +207,13 @@
                     <i class="fas fa-long-arrow-alt-left"></i>
                     <span class="sr-only">Previous</span>
                 </a>
-                <a class="carousel-control-next" href="#services-carousel" role="button" data-slide="next">
-                    <i class="fas fa-long-arrow-alt-right"></i>
-                    <span class="sr-only">Next</span>
-                </a>
-            </div>
-            <div class="text-center">
-                <a href="#" class="btn btn-warning btn-sm text-light" style="font-size: 12px;">VIEW ALL SERVICES</a
+                        <a class="carousel-control-next" href="#services-carousel" role="button" data-slide="next">
+                            <i class="fas fa-long-arrow-alt-right"></i>
+                            <span class="sr-only">Next</span>
+                        </a>
+                    </div>
+                    <div class="text-center">
+                        <a href="#" class="btn btn-warning btn-sm text-light" style="font-size: 12px;">VIEW ALL SERVICES</a
           >
         </div>
       </div>
@@ -204,52 +225,52 @@
         <ul class="nav justify-content-center">
           <li class="nav-item">
             <a class="nav-link active" href="#">ALL</a>
-                </li>
-                <li class="nav-item">
-                    <a class="nav-link" href="#">ENGINE REPAIR</a>
-                </li>
-                <li class="nav-item">
-                    <a class="nav-link" href="#">ELECTRICAL</a>
-                </li>
-                <li class="nav-item">
-                    <a class="nav-link" href="#">PLUMBING</a>
-                </li>
-                <li class="nav-item">
-                    <a class="nav-link" href="#">REPAIR HOUSE</a>
-                </li>
-                <li class="nav-item">
-                    <a class="nav-link" href="#">WALL PAINT</a>
-                </li>
-                </ul>
-                <div class="container col-md-9 " style="padding-top: 30px">
-                    <div class="row">
-                        <img src="./assets/router_left.png" alt="router_left" class="col-md-4" style="padding: 0px" />
-                        <img src="./assets/bear.png" alt="bear" class="col-md-4" style="padding: 0px" />
-                        <img src="./assets/rabbit_greybg.png" alt="rabbit_greybg" class="col-md-4" style="padding: 0px" />
-                        <img src="./assets/rabbit_greybg.png" alt="rabbit_greybg" class="col-md-4" style="padding: 0px" />
-                        <img src="./assets/router_right.png" alt="router_right" class="col-md-4" style="padding: 0px" />
-                        <img src="./assets/bear.png" alt="bear" class="col-md-4" style="padding: 0px" />
-                    </div>
-                    <div class="text-center" style="padding: 30px">
-                        <a href=" # " class="btn btn-warning btn-sm text-light " style="font-size: 12px; ">ALL PROJECTS</a
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#">ENGINE REPAIR</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#">ELECTRICAL</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#">PLUMBING</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#">REPAIR HOUSE</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#">WALL PAINT</a>
+                        </li>
+                        </ul>
+                        <div class="container col-md-9 pt-2">
+                            <div class="row">
+                                <img src="./assets/router_left.png" alt="router_left" class="col-md-4 p-0" />
+                                <img src="./assets/bear.png" alt="bear" class="col-md-4 p-0" />
+                                <img src="./assets/rabbit_greybg.png" alt="rabbit_greybg" class="col-md-4  p-0" />
+                                <img src="./assets/rabbit_greybg.png" alt="rabbit_greybg" class="col-md-4  p-0" />
+                                <img src="./assets/router_right.png" alt="router_right" class="col-md-4 p-0" />
+                                <img src="./assets/bear.png" alt="bear" class="col-md-4 p-0" />
+                            </div>
+                            <div class="text-center p-2">
+                                <a href=" # " class="btn btn-warning btn-sm text-light " style="font-size: 12px; ">ALL PROJECTS</a
             >
           </div>
         </div>
       </div>
       <!--problems section-->
       <div
-        class="bg-dark text-white "
-        style="background: url(assets/bg_services.png); padding: 100px"
+        class="bg-dark text-white p-5"
+        style="background: url(assets/bg_services.png);"
       >
-        <div class="offset-md-1 col-md-4">
+        <div class="offset-md-1 col-md-4 mt-4 mb-5">
           <h5>YOU HAVE SOME PROBLEMS IN HOUSING?</h5>
-          <a href="#" class="btn btn-warning btn-sm text-light text-bold"
+          <a href="#" class="btn btn-warning btn-sm text-light font-weight-bold"
             ><i class="fas fa-mobile-alt"></i> +1 23 567 8596</a
           >
         </div>
       </div>
       <!--location section-->
-      <div style="background: url(assets/brick_bg.png); padding: 50px">
+      <div class="p-5" style="background: url(assets/brick_bg.png);">
         <div class="container col-md-9 ">
           <div class="row ">
               <div class= "col-md-4">
@@ -282,33 +303,56 @@
                         </div>
                       </div>
                       <a href=" # " class="btn btn-warning btn-sm text-light " style="font-size: 12px; ">SUBMIT</a>
-                        </form>
+                                </form>
+                            </div>
+                        </div>
+
+
+
+                    </div>
+                </div>
+                <!-- partners-->
+                <div class="p-5 container col-md-9">
+                    <div class="row justify-content-around">
+                        <img src="./assets/partner1.png" alt="partner1" class="img-fluid" />
+                        <img src="./assets/partner2.png" alt="partner2" />
+                        <img src="./assets/partner3.png" alt="partner3" />
+                        <img src="./assets/partner4.png" alt="partner4" />
+                    </div>
+                </div>
+                <!-- footer-->
+                <div class="p-5 bg-dark text-white" style="background-color: #1a1a1a">
+                    <div class="container col-md-9 ">
+                        <div class="row">
+                            <div class="col d-flex align-items-center ">
+                                <p class="m-0">CONTACT US</p>
+                                <div class="row">
+                                    <div style="background-color: #696969; border-radius: 25px;"> <i class="fas fa-mobile-alt"></i></div>
+                                </div>
+                            </div>
+                            <div class="col d-flex align-items-center ">
+                                <p class="m-0">OUR SERVICES</p>
+                            </div>
+                            <div class="col d-flex align-items-center ">
+                                <p class="m-0">GET OFF</p>
+                                <p class="m-0">Electrical Services</p>
+
+
+                            </div>
+                        </div>
                     </div>
                 </div>
 
-
-
+                <!-- end-->
             </div>
         </div>
-        <!-- partners-->
-        <div class="p-5 container col-md-9">
-            <div class="row justify-content-around" style="height:auto">
-                <img src="./assets/partner1.png" alt="partner1" class="img-fluid" />
-                <img src="./assets/partner2.png" alt="partner2" />
-                <img src="./assets/partner3.png" alt="partner3" />
-                <img src="./assets/partner4.png" alt="partner4" />
-            </div>
-        </div>
-        <!-- end-->
-    </div>
-    </div>
-    >
 
-    <!-- Optional JavaScript -->
-    <!-- jQuery first, then Popper.js, then Bootstrap JS -->
-    <script src="https://code.jquery.com/jquery-3.4.1.slim.min.js " integrity="sha384-J6qa4849blE2+poT4WnyKhv5vZF5SrPo0iEjwBvKU7imGFAV0wwj1yYfoRSJoZ+n " crossorigin="anonymous "></script>
-    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js " integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo " crossorigin="anonymous "></script>
-    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js " integrity="sha384-wfSDF2E50Y2D1uUdj0O3uMBJnjuUD4Ih7YwaYd1iqfktj0Uod8GCExl3Og8ifwB6 " crossorigin="anonymous "></script>
+
+        <!-- Optional JavaScript -->
+        <!-- jQuery first, then Popper.js, then Bootstrap JS -->
+        <script src="https://code.jquery.com/jquery-3.4.1.slim.min.js " integrity="sha384-J6qa4849blE2+poT4WnyKhv5vZF5SrPo0iEjwBvKU7imGFAV0wwj1yYfoRSJoZ+n " crossorigin="anonymous "></script>
+        <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js " integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo " crossorigin="anonymous "></script>
+        <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js " integrity="sha384-wfSDF2E50Y2D1uUdj0O3uMBJnjuUD4Ih7YwaYd1iqfktj0Uod8GCExl3Og8ifwB6 " crossorigin="anonymous "></script>
 </body>
 
 </html>
