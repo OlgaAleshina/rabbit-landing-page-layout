@@ -2,9 +2,9 @@
 
 Responsive Layout build with Bootstrap 4. No JS applied.
 
-## Deployment
+## Live
 
-Published on Git Hub Pages
+Published on [Git Hub Pages](https://olgaaleshina.github.io/rabbit-landing-page-layout/).
 
 ## Built With
 
