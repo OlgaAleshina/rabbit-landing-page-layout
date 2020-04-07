@@ -1,4 +1,4 @@
-# Rabbit Responsive Layout
+# Rabbit Landing Page
 
 Responsive Layout build with Bootstrap 4. No JS applied.
 
