@@ -65,8 +65,8 @@
                 <img src="./assets/rabbit.png" alt="rabbit" class="img-fluid col-md-7 col-sm-5 p-1" />
             </div>
             <div class="col-md-5 my-auto">
-                <h5 class="font-weight-bold">Expert Handyman & Remodeling</h5>
-                <p>
+                <h5 class="font-weight-bold text-lg-left text-sm-center">Expert Handyman & Remodeling</h5>
+                <p class="text-lg-left text-sm-center">
                     Integer consectetur dapibus nisi, et faucibus augue lobortis ut. Proin quis porttitor sem. Donec ultrices felis quis tincidunt
                 </p>
 
@@ -90,7 +90,7 @@
         <div
           class="col-md-5 col-sm-6 d-flex align-items-center justify-content-md-end"
         >
-          <p class="font-weight-bold m-0">
+          <p class="font-weight-bold text-lg-left text-sm-center m-0">
             We have 13 years of experience in Auhandy
           </p>
         </div>
@@ -116,12 +116,12 @@
           />
         </div>
         <div class="col-md-5 my-auto">
-          <h5>WHY CHOOSE US</h5>
+          <h5 class="text-lg-left text-sm-center">WHY CHOOSE US</h5>
           <hr
-            class="mt-0 ml-0"
-            style="background-color: #1c3e9b; width: 40px;"
+            class="mt-0 ml-lg-0 bg-primary"
+            style="width: 40px;"
           />
-          <p>
+          <p class="text-lg-left text-sm-center">
             Lorem ipsum dolor sit amet, consectetur adipiscing elit. Maecenas
             nec ligula temp cursus justo eu, blandit quam. Sed viverra, quam ut
             maximus porta, lorem bibendum metus, et eleifend mi nunc ac arcu
@@ -191,18 +191,20 @@
       </div>
       <!--our services section-->
       <div
-        class="bg-dark text-white p-5"
+        class="bg-dark text-white p-5 pl-sm-0 pr-sm-0"
         style="background: url(assets/bg_services.png);"
       >
         <h5 class="text-center">OUR SERVICES</h5>
         <hr style="width: 40px; background-color: white;" />
-        <!--our services section carousel-->
-        <div id="services-carousel" class="carousel slide m-2">
-          <div class="carousel-inner" role="listbox">
-            <div class="carousel-item active">
+        <!--our services carousel-->
+  <div class="m-3">
+            <div class="row justify-content-lg-center justify-content-sm-between">
+              <button  class="col-1 btn btn-link text-light m-1 p-2">
+            <i class="fas fa-long-arrow-alt-left"></i>
+          </button>
               <button
                 type="button"
-                class="btn btn-outline-primary text-light col-md-2 col-sm-6 m-1 p-2"
+                class="btn btn-outline-primary text-light col-2 m-1 p-2"
               >
                 <img
                   src="./assets/gears.png "
@@ -210,7 +212,7 @@
                   style="height: 30px; margin: 10px;"
                 /><br />
                 <span class="font-weight-bold">Engine Repairs</span>
-
+                 <br/>
                 <span style="font-size: 11px;">
                   Lorem ipsum dolor sit amet, consectetur adipiscing elit.
                 </span>
@@ -218,15 +220,16 @@
 
               <button
                 type="button"
-                class="btn btn-outline-primary text-light col-md-2 col-sm-6 m-1"
-                style="margin: 10px;"
+                class="btn btn-outline-primary text-light col-2 m-1"
+                
               >
                 <img
                   src="./assets/light-bolt.png "
                   alt="light-bolt "
                   style="height: 30px; margin: 10px;"
-                />
+                /><br />
                 <span class="font-weight-bold">Electrical</span>
+                <br/>
                 <span style="font-size: 11px;">
                   Donec malesuada, purus a viverra sodales leo purus lob
                 </span>
@@ -234,14 +237,14 @@
 
               <button
                 type="button"
-                class="btn btn-outline-primary text-light col-md-2 col-sm-6 m-1"
+                class="btn btn-outline-primary text-light col-2  m-1"
               >
                 <img
                   src="./assets/pipe.png "
                   alt="pipe "
                   style="height: 30px; margin: 10px;"
-                />
-                <span class="font-weight-bold">Plumbing</span>
+                /><br />
+                <span class="font-weight-bold">Plumbing</span><br/>
                 <span style="font-size: 11px;">
                   Praesent dignissim mattis mauris. Sed finibus elementu.
                 </span>
@@ -249,71 +252,61 @@
 
               <button
                 type="button"
-                class="btn btn-outline-primary text-light col-md-2 col-sm-6 m-1"
+                class="btn btn-outline-primary text-light col-2 m-1"
               >
                 <img
                   src="./assets/wrench.png "
                   alt="wrench "
                   style="height: 30px; margin: 10px;"
-                />
+                /><br />
                 <span class="font-weight-bold">Repair House</span>
+                <br/>
                 <span style="font-size: 11px;">
                   Phasellus venenatis mauris eget isque tincidunt
                 </span>
               </button>
-            </div>
+              
+              <button class="col-1 btn btn-link text-light m-1 p-2 d-flex">
+            <i class="fas fa-long-arrow-alt-right"></i>
+          </button>
+           
           </div>
-          <!-- Left and right controls -->
-          <a
-            class="carousel-control-prev col-sm-1"
-            href="#services-carousel"
-            role="button"
-            data-slide="prev"
-          >
-            <i class="fas fa-long-arrow-alt-left"></i>
-          </a>
-                        <a class="carousel-control-next col-sm-1" href="#services-carousel" role="button" data-slide="next">
-                            <i class="fas fa-long-arrow-alt-right"></i>
-                        </a>
-                    </div>
-                    <div class="text-center">
-                        <a href="# " class="btn btn-warning btn-sm text-light" style="font-size: 12px;">VIEW ALL SERVICES</a
-          >
+                   
         </div>
       </div>
 
       <!-- Our projects section -->
       <div class="p-5">
         <h5 class="text-center">OUR PROJECTS</h5>
-        <hr style="background-color: #1c3e9b; width: 40px; margin-top: 0px;" />
+        <hr class="mt-0 bg-primary" style="width: 40px;" />
         <ul class="nav justify-content-center">
-          <li class="nav-item">
-            <a class="nav-link active" href="# ">ALL</a>
+          <li class="nav-item ">
+            <a class="nav-link active text-warning" href="# ">ALL</a>
                         </li>
                         <li class="nav-item">
-                            <a class="nav-link" href="# ">ENGINE REPAIR</a>
+                            <a class="nav-link text-dark" href="# ">ENGINE REPAIR</a>
                         </li>
                         <li class="nav-item">
-                            <a class="nav-link" href="# ">ELECTRICAL</a>
+                            <a class="nav-link text-dark" href="# ">ELECTRICAL</a>
                         </li>
                         <li class="nav-item">
-                            <a class="nav-link" href="# ">PLUMBING</a>
+                            <a class="nav-link text-dark" href="# ">PLUMBING</a>
                         </li>
                         <li class="nav-item">
-                            <a class="nav-link" href="# ">REPAIR HOUSE</a>
+                            <a class="nav-link text-dark" href="# ">REPAIR HOUSE</a>
                         </li>
                         <li class="nav-item">
-                            <a class="nav-link" href="# ">WALL PAINT</a>
+                            <a class="nav-link text-dark" href="# ">WALL PAINT</a>
                         </li>
                         </ul>
                         <div class="container col-md-9 pt-2">
                             <div class="row">
-                                <img src="./assets/router_left.png " alt="router_left " class="col-md-4 p-0" />
-                                <img src="./assets/bear.png " alt="bear " class="col-md-4 p-0" />
-                                <img src="./assets/rabbit_greybg.png " alt="rabbit_greybg " class="col-md-4 p-0" />
-                                <img src="./assets/rabbit_greybg.png " alt="rabbit_greybg " class="col-md-4 p-0" />
-                                <img src="./assets/router_right.png " alt="router_right " class="col-md-4 p-0" />
-                                <img src="./assets/bear.png " alt="bear " class="col-md-4 p-0" />
+                                <img src="./assets/router_left.png " alt="router_left " class="col-md-4 col-sm-6 order-lg-1 order-sm-2 p-0" />
+                                <img src="./assets/bear.png " alt="bear " class="col-md-4 col-sm-6 order-lg-2 order-sm-4 p-0" />
+                                <img src="./assets/rabbit_greybg.png " alt="rabbit_greybg " class="col-md-4 col-sm-6 order-lg-3 order-sm-1 p-0" />
+                                <img src="./assets/rabbit_greybg.png " alt="rabbit_greybg " class="col-md-4 col-sm-6 order-lg-4 order-sm-6 p-0" />
+                                <img src="./assets/router_right.png " alt="router_right " class="col-md-4 col-sm-6 order-lg-5 order-sm-3 p-0" />
+                                <img src="./assets/bear.png " alt="bear " class="col-md-4 col-sm-6 order-lg-6 order-sm-5 p-0" />
                             </div>
                             <div class="text-center p-2">
                                 <a href=" # " class="btn btn-warning btn-sm text-light" style="font-size: 12px;">ALL PROJECTS</a
@@ -326,7 +319,7 @@
         class="bg-dark text-white p-5"
         style="background: url(assets/bg_services.png);"
       >
-        <div class="offset-md-1 col-md-4 mt-4 mb-5">
+        <div class="offset-md-1 col-md-4 mt-4 mb-5 text-lg-left text-sm-center">
           <h5>YOU HAVE SOME PROBLEMS IN HOUSING?</h5>
           <a
             href="# "
@@ -337,29 +330,19 @@
       </div>
       <!--location section-->
       <div class="p-5" style="background: url(assets/brick_bg.png);">
-        <div class="container col-md-9">
+        <div class="container col-md-9 text-lg-left text-sm-center">
           <div class="row">
             <div class="col-md-4">
               <h5>OUR LOCATION</h5>
-              <hr
-                style="
-                  background-color: #1c3e9b;
-                  width: 40px;
-                  margin-top: 0px;
-                  margin-left: 0px;
-                "
+              <hr class="mt-0 ml-lg-0 bg-primary"
+                style="width: 40px;"
               />
-              <img src="./assets/map.png " alt="map " class="img-fluid" />
+              <img src="./assets/map.png " alt="map " class="img-fluid col-lg-12 col-sm-6 p-0" />
             </div>
             <div class="pl-1">
               <h5>GET A QUOTE</h5>
-              <hr
-                style="
-                  background-color: #1c3e9b;
-                  width: 40px;
-                  margin-top: 0px;
-                  margin-left: 0px;
-                "
+              <hr class="mt-0 ml-lg-0 bg-primary"
+                style="width: 40px;"
               />
               <form>
                 <div class="form-row pb-1">
@@ -417,46 +400,45 @@
       <!-- partners-->
       <div class="p-5 container col-md-9">
         <div class="row justify-content-around">
-          <img src="./assets/partner1.png " alt="partner1 " class="img-fluid" />
-          <img src="./assets/partner2.png " alt="partner2 " />
-          <img src="./assets/partner3.png " alt="partner3 " />
-          <img src="./assets/partner4.png " alt="partner4 " />
+          <img src="./assets/partner1.png " alt="partner1 " class="img-fluid col-lg-2 col-sm-3" />
+          <img src="./assets/partner2.png " alt="partner2 " class="img-fluid col-lg-2 col-sm-3"/>
+          <img src="./assets/partner3.png " alt="partner3 " class="img-fluid col-lg-2 col-sm-3"/>
+          <img src="./assets/partner4.png " alt="partner4 " class="img-fluid col-lg-2 col-sm-3"/>
         </div>
       </div>
       <!-- footer-->
       <footer>
         <div class="row bg-dark text-secondary p-5 justify-content-center">
-          <div class="col-lg-3 col-md-6 col-sm-12">
+          <div class="col-lg-3 col-md-6 col-sm-12 ">
             <p class="text-light">CONTACT US</p>
-            <div style="font-size: 12px;">
-              <span class=" "
-                ><i class="fas fa-mobile-alt text-warning pb-3"></i
-              ></span>
-              +1 23 567 8596<br />Support 24/7 Weekdays
+            <div class="row " style="font-size: 12px;">
+              <span><i class="fas fa-mobile-alt text-warning pb-3"></i
+              ></span> 
+              +1 23 567 8596 Support 24/7 Weekdays
             </div>
-            <div style="font-size: 12px;">
-              <span class=" "
+            <div class="row" style="font-size: 12px;">
+              <span 
                 ><i class="fas fa-map-marker-alt text-warning pb-3"></i
-              ></span>
+              ></span> 
               Auhandy Tower, New York, NY 10013, USA
             </div>
-            <div style="font-size: 12px;">
-              <span class=" "
+            <div class="row" style="font-size: 12px;">
+              <span 
                 ><i class="far fa-envelope text-warning pb-3"></i
-              ></span>
+              ></span> 
               info@example.com
             </div>
-            <div style="font-size: 12px;">
-              <span class=" "
+            <div class="row" style="font-size: 12px;">
+              <span 
                 ><i class="far fa-clock text-warning pb-3"></i
-              ></span>
+              ></span> 
               Weekdays: 09:00am - 06:00pm
             </div>
           </div>
-          <div class="col-lg-3 col-md-6 col-sm-12">
+          <div class="col-lg-3 col-md-6 col-sm-12 ">
             <p class="text-light">OUR SERVICES</p>
             <div class="row">
-              <div class="col-lg-6 col-sm-12 p-1">
+              <div class="col-6 p-1">
                 <div
                   class="text-warning text-weight-bold"
                   style="font-size: 12px;"
@@ -464,64 +446,64 @@
                   > <a href="# " class="text-secondary"> Electrical</a>
                             </div>
                         </div>
-                        <div class="col-lg-6 col-sm-12 p-1">
+                        <div class="col-6 p-1">
                             <div class="text-warning text-weight-bold" style="font-size: 12px;">
                                 > <a href="# " class="text-secondary"> Installation</a>
                             </div>
                         </div>
-                        <div class="col-lg-6 col-sm-12 p-1">
+                        <div class="col-6  p-1">
                             <div class="text-warning text-weight-bold" style="font-size: 12px;">
                                 > <a href="# " class="text-secondary"> Plumbing</a>
                             </div>
                         </div>
-                        <div class="col-lg-6 col-sm-12 p-1">
+                        <div class="col-6  p-1">
                             <div class="text-warning text-weight-bold" style="font-size: 12px;">
                                 > <a href="# " class="text-secondary"> Garden Repairs</a>
                             </div>
                         </div>
-                        <div class="col-lg-6 col-sm-12 p-1">
+                        <div class="col-6  p-1">
                             <div class="text-warning text-weight-bold" style="font-size: 12px;">
                                 > <a href="# " class="text-secondary"> Engine Repair</a>
                             </div>
                         </div>
-                        <div class="col-lg-6 col-sm-12 p-1">
+                        <div class="col-6  p-1">
                             <div class="text-warning text-weight-bold" style="font-size: 12px;">
                                 > <a href="# " class="text-secondary"> Soil Drilling</a>
                             </div>
                         </div>
-                        <div class="col-lg-6 col-sm-12 p-1">
+                        <div class="col-6  p-1">
                             <div class="text-warning text-weight-bold" style="font-size: 12px;">
                                 > <a href="# " class="text-secondary"> Repair House</a>
                             </div>
                         </div>
-                        <div class="col-lg-6 col-sm-12 p-1">
+                        <div class="col-6  p-1">
                             <div class="text-warning text-weight-bold" style="font-size: 12px;">
                                 > <a href="# " class="text-secondary"> Support 24/7</a>
                             </div>
                         </div>
-                        <div class="col-lg-6 col-sm-12 p-1">
+                        <div class="col-6  p-1">
                             <div class="text-warning text-weight-bold" style="font-size: 12px;">
                                 > <a href="# " class="text-secondary"> Home Maintenance</a>
                             </div>
                         </div>
-                        <div class="col-lg-6 col-sm-12 p-1">
+                        <div class="col-6  p-1">
                             <div class="text-warning text-weight-bold" style="font-size: 12px;">
                                 > <a href="# " class="text-secondary"> Inspection House</a>
                             </div>
                         </div>
-                        <div class="col-lg-6 col-sm-12 p-1">
+                        <div class="col-6  p-1">
                             <div class="text-warning text-weight-bold" style="font-size: 12px;">
                                 > <a href="# " class="text-secondary"> Wall Paint</a>
                             </div>
                         </div>
-                        <div class="col-lg-6 col-sm-12 p-1">
+                        <div class="col-6  p-1">
                             <div class="text-warning text-weight-bold" style="font-size: 12px;">
                                 > <a href="# " class="text-secondary"> Remodelling Ceiling</a>
                             </div>
                         </div>
                     </div>
                 </div>
-                <div class="col-lg-3 col-md-6 col-sm-12">
+                <div class="col-lg-3 col-md-6 m-2 p-0">
                     <div class="card text-center bg-dark" style="border: 1px dashed;">
                         <div class="card-body">
                             <p class="text-light mb-0">

@@ -19,10 +19,14 @@ body {
 }
 
 .nav-link {
-    color: #666666;
     font-size: 12px;
 }
 
-.nav-link.active {
-    color: orange;
+.btn-circle {
+    width: 30px;
+    height: 30px;
+    padding: 6px 0px;
+    border-radius: 15px;
+    font-size: 8px;
+    text-align: center;
 }
