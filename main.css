@@ -1,32 +1,91 @@
 *,
 *::before,
 *::after {
-    box-sizing: border-box;
+  box-sizing: border-box;
 }
 
 body {
-    display: flex;
-    font-size: 15px;
-    line-height: 22px;
-    color: #666666;
-    font-family: "Lato";
-    font-weight: 400;
+  display: flex;
+  font-size: 15px;
+  line-height: 22px;
+  color: #666666;
+  font-family: "Lato";
+  font-weight: 400;
 }
 
 .why-choose-icon {
-    width: 50px;
-    height: 50px;
+  width: 50px;
+  height: 50px;
 }
 
 .nav-link {
-    font-size: 12px;
+  font-size: 12px;
 }
 
 .btn-circle {
-    width: 30px;
-    height: 30px;
-    padding: 6px 0px;
-    border-radius: 15px;
-    font-size: 8px;
-    text-align: center;
+  width: 30px;
+  height: 30px;
+  padding: 6px 0px;
+  border-radius: 15px;
+  font-size: 8px;
+  text-align: center;
+}
+
+.choose-title {
+}
+.choose-section {
+}
+
+.button {
+  outline: none;
+}
+
+.button__inner {
+  margin: auto;
+}
+
+.blue-break {
+  width: 3.33rem;
+}
+
+.service-article {
+  background: url(assets/bg_services.png);
+}
+
+.carousel__img {
+  height: 2.5rem;
+  margin: 0.83rem;
+}
+
+.carousel__description {
+  font-size: 0.92rem;
+}
+
+.problems-article {
+  background: url(assets/bg_services.png);
+}
+
+.location-article {
+  background: url(assets/brick_bg.png);
+}
+/*remove default settings
+  css resert*/
+ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+}
+.partner-logo {
+  max-width: 30px;
+}
+/*.footer-services__list {
+    list-style-type: ">";
+    background: "#FFA500";
+  }*/
+.discount-box {
+  border: 1px dashed white;
+}
+
+.footer-copywright {
+  background-color: black;
 }
